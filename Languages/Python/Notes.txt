@@ -1,0 +1,97 @@
+Modules: itertools, itemgetter, dataclasss, Requests
+Packages
+Closures, Decorators, Generators
+OOPs Concepts(decorators in oops, @staticmethod, @classmethod and so on)
+Important build-in functions
+Co-routines
+fastAPI, SQLAlchemy, Pydantic
+
+__repr__ vs __str__
+
+1. Data types and type conversion
+    Boolean: bool
+    Numeric: int, float, complex(a + bj)
+    Sequence(ordered) types: string, list, tuple
+    Unordered types: set, disctionary
+    Binary types: bytes, bytearray, memoryview -->> Learn to play with them
+
+    Explicit Type conversion:
+        ASCII value to char: chr(ASCII)
+        char to int: ord(char)
+        string to int: int(str, base)
+        any to float: float(obj)
+        int to hex string: hex(int)
+        int to oct string: oct(int)
+
+2. Operators and Keywords
+    Arithmetic Operators: +, -, *, /, //, **, %
+        Precedence: 
+            Exponentiation Op(**): right to left
+            All others: left to right
+
+    Assignment Operators:
+        =, +=, -=, *=, /=, //=, %=, **=, &=, |=, ^=, >>=, <<=, :=
+        Walrus Operator(:=) -->> Assignes a value to a variable within an expression
+
+    Comparison Operators: ==, !=, >, <, <=, >=
+        Chaining comparison operators: 
+            |a op1 b op2 c| equivalent to |a op1 b and b op2 c|
+
+    Logical Operators: and, or, not
+
+    Bitwise Operators: &, |, xor(^), not(~), right-shift(>>), left-shift(<<)
+
+    || Keywords ||
+    as: creates an alias name
+    async: helps work with coroutines
+    await: used for coroutines
+    global: declares a global variable
+    is: tests if 2 objs are equal
+    in: checks if a value is present in a container
+    nonlocal: used to reference a variable in the nearest scope.
+              does not work on local/global variable.
+              saves memory by referencing the nearest variable.
+              Used mostly in context of closures/nested-structures
+
+3. Match Statement: Similar to switch in many languages but more robust and greater utility.
+                 Can be used with any type including class.
+
+4. Name resolution done via: LEGB(LOCAL, ENCLOSING, GLOBAL, BUILT-IN) rule
+
+5. Loops and Comprehensions
+   1. List comprehension: More space and time efficient than loops. 
+      Syntax: -->> lst = [expression(item) for item in collection if cond]
+      Eg: matrix = [[j for j in range(3)] for i in range(3)] //create a 3x3 matrix
+
+    2. Disctionary comprehension: 
+       Syntax: dict = {key:val for key, val in zip(collection1, collection2)} or
+                      {key:val for key, val in enumerate(collection)} or
+                      {key:expression(key) for key in collection}
+
+6. Functions
+   Closures: A function object that remembers values in enclosing scopes even if they are 
+             not present in memory. 
+
+   Decorators: 
+
+
+7. OOPs Concepts
+    Syntax:
+        class ClassName:
+            #class/static variables <<-------------------
+            class_name = 'abc'
+            
+            def __init__(self, user_name, user_id):
+                #Instance/member variables  <<-------------------
+                self.user_name = user_name
+                self.user_id = user_id
+
+    Inheritance:
+        Python supports: Single, Multiple, Multi-level, Hierarchical and Hybrid Inheritances.
+
+
+Data structures
+List methods
+Set methods
+Disctionary methods
+String methods

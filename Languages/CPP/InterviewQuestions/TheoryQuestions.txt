@@ -1,0 +1,73 @@
+=================================================================================================================
+1. Memory layout of a program
+
+	a. Stack Section: Contains all local variables, functions and return addresses
+	b. Heap Section:  Used only to allocate runtime memory
+	c. Data Section:  All global variables and static variables are stored here
+	d. Text Section:  Contains the executable instructions, constants and macros. It is a read only memory
+					  and is sharable so that it can be used by other processes
+=================================================================================================================
+
+=================================================================================================================
+2. States of a process
+
+	a. Start
+	b. Ready
+	c. Running
+	d. Waiting
+	e. Terminate
+=================================================================================================================
+
+=================================================================================================================
+3. Disadvantages of vector
+	a. Slower than stack due to dynamic memory allocation
+	b. If the vector is full, insertion becomes an expensive operation
+	c. Allocates more memory than required
+=================================================================================================================
+
+=================================================================================================================
+4. Busy waiting: A state in which one thread keeps waiting for another thread in a loop to release a resource. 
+   This can be avoided by mutexes.
+=================================================================================================================
+
+=================================================================================================================
+5. Priority Inversion: A situation in which a higher priority process waits behind a lower priority process which
+   holds a lock on the resouce is a case of Priority Inversion.
+=================================================================================================================
+
+=================================================================================================================
+6. Difference between user and kernel level threads: 
+    -------------------------------------------------------------------------------
+	|	      User Level                    |           Kernel Level              |
+	-------------------------------------------------------------------------------
+	a. Fast in action and creation          |    Slow in action and creation
+	b. Not bound to any OS                  |    These are OS specific
+	c. Implementation is at user level      |    Implementation is at kernel level
+=================================================================================================================
+
+=================================================================================================================
+7. What are the synchronization primitives availabel?
+	a. contition variable: Allows threads to wait until a particular condition occurs
+	b. semaphores: An integer variable shared between threads to achieve process synchronization
+		b1. Binary Semaphore also called mutex has 2 states 0 and 1
+		b2. Counting Semaphore: value has no restrictions. Used to control access to a resource with 
+			multiple instances
+=================================================================================================================
+
+=================================================================================================================
+8. map vs unordered_map
+
+-------------------------------------------------------------------------
+			           map             |     unordered_map
+-------------------------------------------------------------------------
+Ordering       | Increasing Order      |       No Order
+-------------------------------------------------------------------------
+Implementation | Self balancing BST    |      Hash Table
+-------------------------------------------------------------------------
+Search time    | O(logn)               |   O(1) -> avg, O(n) -> worst
+-------------------------------------------------------------------------
+Insertion time | logn + rebalance time |      same as search
+-------------------------------------------------------------------------
+Deletion time  | logn + rebalance time |      same as search 
+-------------------------------------------------------------------------
+=================================================================================================================

@@ -1,0 +1,50 @@
+C++/C++11/14/17|Multithreading/Concurrency
+Strong Basic C++ knowledge
+Should know polymorphism and dynamic memory allocation
+Good knowledge on multi threading and STL 
+Good to have knowledge on Design patterns 
+Knowledge on C++1x with hands-on experience on Classes & Objects
+	
+Explain the memory layout of a Class (with and without Virtual methods in case of class Hierarchy)
+Explain constant, static member variables, method in a class and mechanics of it
+Explains practical scenarios where structs are more suited than a class
+Explains how abstraction, encapsulation concepts are supported by Classes & Objects
+Explain difference in overloading the operators as part of Member functions vs Friend functions
+Understands what Nested or Inner classes are and provides at least one practical example of its use 
+Explain at least 3 to 4 familiar and commonly accepted Best Practices of C++ Class Layout definition and advantage of same Inheritance & Composition
+Methods which does not get inherited automatically like Constructors or Destructors, Assignment Operations and explain the reason
+Explain the need of destructors in base and derived classes.
+
+Explains how Static Members behave in case of inheritance
+Explains why the Multiple Inheritance should be avoided
+Explains with justification why too much of inheritance is bad and nice if can specify trade off in same Polymorphism
+Explain when and how vtable gets initialized
+Explain in what order and how the pointers are listed in vtable
+Explain why Static Methods can't be made virtual
+Explain memory layout of vtable
+Explain vtable's initialization, modification during upcast and downcast
+Explain how various cast operators work and how they are suited to their own practical scenarios Memory Allocation, Pointers and References
+Explain how reference counting can be implemented to manage the lifetime of an object
+Explain how to detect memory leaks
+Knows Boost Library or any other standard library for Pointer life time management Streams, STL, Data Structures & Algorithm
+Can specify the underlaying Data Structure of containers like Vector, Map and List
+Can specify type of the Iterator used in containers like Vector, Map and List
+
+Can explain different types of casting.
+Can specify type of the Iterator used in containers like Vector, Map and List
+Can specify the Practical scenario on when to use which vector and which scores over other in terms of Memory complexity and Time Complexity
+Knows Big O Notation specific stats for insertion/iteration/deletion on the containers like Vector, Map and List Templates & Exception Handling
+Explain template specialization, Partial and Full Template Specialization
+Explain how stack winding happens and understands its impact in memory handling
+Explain how exceptions are thrown, re-thrown, and handled Analysis, Design & UML
+Given a Class Diagram of a Pattern with missing item/relationship/class can fill it
+
+Can Draw Sequence Diagrams for Synchronous and Asynchronous Flows Design Pattern
+Knows Architectural Patterns and Principles
+Knows Concurrency Patterns
+Have handled patterns in Multi-threaded environment and can explain the issues faced in MT environment and its solutions Modern C++11/14/17
+Lambda expressions, closure.
+Variadic Template
+Multithreading and Task based programming
+Move semantics, rvalue references, forwarding references
+

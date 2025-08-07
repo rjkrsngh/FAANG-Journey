@@ -1,0 +1,11 @@
+Q: How to make items from a package available to other packages?
+Ans: To make a function, type, variable, constant or struct field externally visible (known as exported),
+     the name must start with a capital letter. If it starts with a lower case letter, its scope is 
+     restricted to the package only and cannot be exported.
+
+Q: How to implement private methods and variables in GO?
+Ans: Define a separate package for the type and the names of the methods/vars must start with lower case letters.
+
+Q: How to implement constructors on structs in GO?
+Ans: Can be done using any method. But, by convention, the name of such methods start with New.
+

@@ -1,0 +1,38 @@
+Important Concepts:
+1. Use Kadane's algorithm to find the continuous subarray with max sum
+2. Counting sort: Sorts the elems and stores them based on their index.
+3. KMP Algorithm for pattern matching
+
+
+REVISON PROBLEMS:
+	ARRAYS
+		1. Kadane's algorithm
+		2. Max Circular array sum
+		3. Find the smallest missing number
+		4. Maximum number of 1s(Given an array, find the max ones by flipping k zeros).
+		
+	STRINGS
+		1. Add binary strings
+		2. KMP Algorithm(to find all the occurances of a desired string): Practice its application questions <------- VVI
+			Add minimum chars in a str to make it a palindrome.
+			Check if one string is a rotation of the other.
+		3. Generate power set of a string
+		4. Generate all permutations of a string
+		
+	TREES/BST:
+		1. Basic operations: Insertion/Deletion/Searching
+		2. BFS/DFS
+		3. Least common ancestor
+		4. Left/right view
+		5. Height/Width
+		6. Binary tree to BST conversion keeping the original structure intact: 
+			take the inorder traversal of binary tree in inorderList
+			sort the inorderList
+			traverse on the binary tree using inorder and update the values from inorderList.
+		7. Add all greater values to every node in a BST(------->VVI<-------).
+		
+	GRAPH
+		1. BFS/DFS
+		2. Connected/Strongly Connected components (number of islands)
+		3. Shortest path finding (dijkstra's algorithm)
+		4. Cycle Detection in directed/undirected graph.
