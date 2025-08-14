@@ -4,12 +4,18 @@ Important Concepts:
 3. KMP Algorithm for pattern matching
 
 
+NO CLUE PROBLEMS:
+	1. Minimize max difference between 2 heights in an array
+
 REVISON PROBLEMS:
 	ARRAYS
 		1. Kadane's algorithm
 		2. Max Circular array sum
 		3. Find the smallest missing number
-		4. Maximum number of 1s(Given an array, find the max ones by flipping k zeros).
+		4. Maximum number of 1s(Given an array, find the max ones by flipping k zeros)
+		5. Find the missing and duplicate in an array having numbers in range n
+		6. Find majority element - 2 a.k.a Moore's algorithm
+		7. 
 		
 	STRINGS
 		1. Add binary strings
