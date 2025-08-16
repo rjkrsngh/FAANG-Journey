@@ -14,8 +14,9 @@ REVISON PROBLEMS:
 		3. Find the smallest missing number
 		4. Maximum number of 1s(Given an array, find the max ones by flipping k zeros)
 		5. Find the missing and duplicate in an array having numbers in range n
-		6. Find majority element - 2 a.k.a Moore's algorithm
-		7. 
+		6. Find majority element - 2 a.k.a Moore's algorithm <-- 
+		7. Maximum product subarray <--
+		8. Number of continuous subarrays with product less than K. <--
 		
 	STRINGS
 		1. Add binary strings

@@ -6,6 +6,8 @@ Given an array prices[] of size n denoting the cost of stock on each day, the ta
 
 Note: We can only sell a stock which we have bought earlier and we cannot hold multiple stocks on any day.
 
+Problem link: https://www.geeksforgeeks.org/dsa/stock-buy-sell/
+
 Examples:
 
     Input: prices[] = {100, 180, 260, 310, 40, 535, 695}
