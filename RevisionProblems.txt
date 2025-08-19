@@ -6,6 +6,7 @@ Important Concepts:
 
 NO CLUE PROBLEMS:
 	1. Minimize max difference between 2 heights in an array
+	2. Last moment before all ants fall off the plank.
 
 REVISON PROBLEMS:
 	ARRAYS
